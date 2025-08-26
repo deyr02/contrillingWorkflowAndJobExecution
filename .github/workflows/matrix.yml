@@ -1,6 +1,6 @@
 name: Matrix Demo
 on: push
-Jobs:
+jobs:
   build:
     strategy:
       matrix:
@@ -17,4 +17,4 @@ Jobs:
       - name: Install Dependencies
         run: npm ci
       - name: Build Project
-        run: npm run build    
+        run: npm run build
